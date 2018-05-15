@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": "src",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "preserveConstEnums": true
+  }
+  ,"compileOnSave": true
+  ,"include": [
+    "src/*",
+    "src/**/*"
+  ]
+  ,"exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
